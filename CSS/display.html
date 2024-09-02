@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #outer {
+      height: 500px;
+      width: 500px;
+      background-color: yellow;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+    }
+
+    #inner {
+      height: 100px;
+      width: 1000px;
+    }
+
+    li {
+      display: inline;
+      margin-right: 30px;
+      margin-bottom: 10px;
+      background-color: red;
+      width: 100px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="outer">
+    <div id="inner" style="background-color: red;">
+      <p>Hello 1</p>
+    </div>
+
+    <div id="inner" style="background-color: rgb(0, 255, 195);">
+      <p>Hello 2</p>
+    </div>
+
+    <div id="inner" style="background-color: rgb(255, 0, 81);">
+      <p>Hello 3</p>
+    </div>
+
+    <div id="inner" style="background-color: rgb(0, 255, 0);">
+      <p>Hello 4</p>
+    </div>
+
+    <div id="inner" style="background-color: rgb(0, 64, 255);">
+      <p>Hello 5</p>
+    </div>
+  </div>
+  <div id="li1">
+    <li>Ajay</li>
+    <li>Vijay</li>
+    <li>Mahesh</li>
+    <li>gaurav</li>
+  </div>
+</body>
+
+</html>
